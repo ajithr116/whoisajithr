@@ -1,13 +1,13 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
 
 /*=============== VARIABLES ===============*/
 
 :root {
-  --accent-color: #a8858f;
-  --background-color: #423a3c;
-  --background-color-2: #362b2e;
-  --light-grey: rgb(194, 194, 194);
+  --accent-color: #2196F3;
+  --background-color: #2196F3;
+  --background-color-2: #2196F3;
+  --light-grey: white;
   --border-radius: 30px;
 }
 
@@ -88,7 +88,7 @@ h2 {
   margin-left: 50%;
   padding: 15px 0px;
   position: center;
-  background-color: #423a3c;
+  background-color: #2196F3;
   margin-left:auto;
   margin-right:auto;
 }
@@ -249,21 +249,21 @@ h2 {
   margin: 0;
 } */
 
-.bar {
+/* .bar {
   background: rgba(0, 0, 0, 0.1);
   display: block;
   height: 8px;
   border-radius: 10px;
   overflow: hidden;
-}
+} */
 
-.bar span {
+/* .bar span {
   height: 8px;
   float: left;
   background: var(--accent-color);
-}
+} */
 
-.english {
+/* .english {
   width: 100%;
 }
 
@@ -277,11 +277,11 @@ h2 {
 
 .hindi {
   width: 48%;
-}
+} */
 
 .skill {
   background-color: var(--accent-color);
-  color: #fff;
+  color: white;
   line-height: 60px;
   border-radius: 10px;
 }
@@ -316,7 +316,7 @@ h2 {
 }
 
 .overlay {
-  background: #a8858fe0;
+  background: #2196F3;
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -402,10 +402,12 @@ form {
 .input-box input,
 textarea {
   width: 100%;
+  height:60px;
   margin: 1rem;
   color: var(--accent-color);
   font-size: 1rem;
   padding-left: 0.3rem;
+  border-radius:10px;
 }
 
 .input-box input::placeholder,
@@ -429,13 +431,13 @@ textarea:focus {
   height: 2rem;
   background-color: transparent;
   border: none;
-  border-bottom: solid 2px var(--accent-color);
+  border: solid 1px var(--accent-color);
 }
 
 textarea {
   height: 4rem;
   border: none;
-  border-bottom: solid 2px var(--accent-color);
+  border: solid 1px var(--accent-color);
 }
 
 .submit-btn {
@@ -448,6 +450,7 @@ textarea {
   transition: 0.2s linear;
   transition-property: background-color, color;
   box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  border:1px solid var(--accent-color);
 }
 
 .submit-btn:hover {

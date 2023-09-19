@@ -24,7 +24,7 @@
         
 
     </head>
-    <body style="background-color: #362b2e;">
+    <body style="background-color: #2196F3;">
     <!-- Further code here 
    <nav id="navbar" class="navbar"><a href="#"></a></nav>
 
@@ -50,7 +50,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <img class="header-img" src="image/profile.jpg" alt="profile photo" />
+                        <img class="header-img" src="image/profile.jpg" alt="profile photo" width="150" height="150"/>
                     </div>
                 </div>
             </div>
@@ -62,10 +62,12 @@
                 <a href="https://instagram.com/ajithr116?igshid=ZDdkNTZiNTM=" target="_blank" class="fab fa-instagram"></a>
                 <a href="https://www.facebook.com/ajith.vampier?mibextid=ZbWKwL" target="_blank" class="fab fa-facebook"></a>
                 <a href="https://link.medium.com/z4sAc3ZRDyb" target="_blank" class="fab fa-medium"></a>
-                <a href="#" target="_blank" class="fab fa-whatsapp"></a>
+                <a href="mailto:ajith7736544214@gmail.com" target="_blank" class="fas fa-mail-bulk"></a>
+                <a href="tel:7736544214"target="_blank" class="fas fa-phone"></a>
                 <a href="https://pin.it/4bQGqji" target="_blank" class="fab fa-pintrest"></a>
-                
+                    
             </div>
+            
             <a href="https://github.com/ajithr116/portfolio/raw/main/image/resume.pdf" class="cta">DownIoad CV</a>
         </section>
 
@@ -145,90 +147,97 @@
                 <h1>Projects</h1>
                 <div class="col-2 project-list">
                     <div class="project-tile">
-                        <img src="image/charasor.jpg"alt="" />
+                        <img src="image/netflixCompress.png" alt="netflix" width="100px" height="0"/>
                         <div class="overlay">
                             <div class="project-description">
-                                <h3>Project 1</h3>
+                                <h5>Netflix responsive home page</h5>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Nisi aperiam voluptate accusamus velit omnis.
+                                    Responsible home page using pure HTML, CSS, Bootstrap and Javascript
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="project-tile">
-                        <img src="image/piplab.jpg"
-                            alt="" />
+                        <img src="image/linkedCompress.png" alt="Linkedin screenshot"  width="100px" height="0"/>
                         <div class="overlay">
                             <div class="project-description">
-                                <h3>Project 2</h3>
+                                <h5>Linked home page</h5>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Nisi aperiam voluptate accusamus velit omnis.
+                                    Simple Linkedin static home page only using HTML and CSS
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="project-tile">
-                        <img src="image//glaceon.jpg"
-                            alt="" />
+                        <img src="image/portfolioCompress.png" alt="portfolio screenshot"  width="100px" height="0"/>
                         <div class="overlay">
                             <div class="project-description">
-                                <h3>Project 3</h3>
+                                <h3>Portfolio</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Nisi aperiam voluptate accusamus velit omnis.
+                                    Portfolio website using HTML, CSS, Bootstrap, Javascript With responsible
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="project-tile">
-                        <img src="image/ghost.jpg"
-                            alt="" />
+                        <img src="image/spotifyCompress.png" alt="Spotify screenshot"  width="100px" height="0"/>
                         <div class="overlay">
                             <div class="project-description">
-                                <h3>Project 4</h3>
+                                <h3>Spotify static page</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Nisi aperiam voluptate accusamus velit omnis.
+                                    Static Spotify home page using HTML and CSS. Only work perfectly for 15.6 inch screen or 1920x1080 px
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a href="https://google.com">see more...</a>
+                <a href="https://github.com/ajithr116?tab=repositories">---see more---</a>
             </section>
 
             <!--=============== EXPERIENCE ===============-->
 
-            <section class="content-card experience" id="experience">
+            <section class="content-card" id="experience">
                 <h1>Experience</h1>
                 <div class="timeline">
                     <div class="timeline-items">
                         <div class="timeline-item">
-                            <div class="timeline-date">2022 - now</div>
+                            <div class="timeline-date">2018</div>
                             <div class="timeline-content">
-                                <h3>timeline item 1</h3>
+                                <h3>SSLC </h3>
                                 <p>
-                                    currently persuing my computer application degree
+                                    SSLC Finished
                                 </p>
                             </div>
                         </div>
                         <div class="timeline-item">
-                            <div class="timeline-date">2020 - 2022</div>
+                            <div class="timeline-date">2020</div>
                             <div class="timeline-content">
-                                <h3>timeline item 2</h3>
+                                <h3>Pre-university course</h3>
                                 <p>
-                                    finished my commerce course (PUC)
+                                    I finished my Pre-university course (PUC) in commerce.
                                 </p>
                             </div>
                         </div>
                         <div class="timeline-item">
-                            <div class="timeline-date">2010 - 2020</div>
+                            <div class="timeline-date"> 2023</div>
                             <div class="timeline-content">
-                                <h3>timeline item 3</h3>
+                                <h3>undergraduate degree</h3>
                                 <p>
-                                    finished my high school studies
+                                    I completed my Bachelor of Computer Applications (BCA) degree
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date" id="currentDate"> Current</div>
+                            <script>
+                                var currentDate = new Date();
+                                var formattedDate = currentDate.getFullYear() + '-' + (currentDate.getMonth() + 1) + '-' + currentDate.getDate();
+                                document.getElementById("currentDate").innerHTML = formattedDate;
+                            </script>
+                            <div class="timeline-content">
+                                <h3 id="currentDate">Learning</h3>
+                                <p>
+                                    I'm studying coding at a Brototype coaching center.
                                 </p>
                             </div>
                         </div>
@@ -241,7 +250,7 @@
 
             <section class="content-card contact" id="contact">
                 <h1>Contact</h1>
-                <form class="form" id="form" action="https://www.freecodecamp.com/email-submit">
+                <form class="form" id="form" action="https://script.google.com/macros/s/AKfycbzGjQoZR_kMA6XNxX0-GgcWX8WUC4WGA4FIw3c0kfu06hYSYjRattzYfLOXOZO6UPcn/exec" method="POST">
                     <div class="input-box">
                         <input type="text" class="text-input" name="name" placeholder="Name" />
                     </div>
@@ -260,9 +269,19 @@
                     </div>
                 </form>
             </section>
+
+            
+            <!-- <section class="content-card about" id="about">
+                <h1>Get in touch</h1>
+                <div class="d-block align-items-center justify-content-center">
+                    <p class="fs-5"><span class="fas fa-phone"></span> 7736544214</p>
+                    <p class="fs-5"><span class="fas fa-location"></span> Kannans Compound Anangoor Kasaragod Kerala</p>
+                </div>
+            </section> -->
+            
         </div>
     </div>
-
+<!-- 
     <script src="script.js"></script>
     <script>
          var swiper = new swiper('.carousal',
@@ -277,7 +296,7 @@
                 el:'.swiper-pagination',
             },
         });
-    </script>
+    </script> -->
 </body>
 
 </html>
