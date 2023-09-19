@@ -4,7 +4,7 @@
 /*=============== VARIABLES ===============*/
 
 :root {
-  --accent-color: #2196F3;
+  --accent-color: blue;
   --background-color: #2196F3;
   --background-color-2: #2196F3;
   --light-grey: white;
@@ -36,6 +36,7 @@
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  color:black;
 }
 
 html {
@@ -121,7 +122,7 @@ h2 {
   width: 100vw;
   /* max-width: 2060px; */
   border-radius: var(--border-radius);
-  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1); */
 }
 
 /*=============== HEADER ===============*/
@@ -325,6 +326,7 @@ h2 {
   color: white;
   z-index: 2;
   transition: 0.5s ease;
+  border-radius: 10px;
 }
 
 .project-description {
@@ -630,4 +632,10 @@ img
 .geeks:hover img
 {
   transform:scale(1.5);
+}
+
+
+.project-tile img
+{
+  border-radius: 10px;;
 }
