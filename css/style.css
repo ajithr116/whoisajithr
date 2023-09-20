@@ -503,7 +503,7 @@ textarea {
     font-size: 2rem;
     margin: 0 15px;
   }
-  
+
   /* .home h1 {
     font-size: 3rem;
   } */
@@ -540,7 +540,9 @@ textarea {
   .content-card {
     margin: 0 30px;
   }
-  
+  .project-tile img {
+    width: 100%;
+  }
   /* .home h1 {
     font-size: 2rem;
     line-height: 2.5rem;
