@@ -1,5 +1,4 @@
 
-/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
 
 /*=============== VARIABLES ===============*/
 
@@ -129,8 +128,8 @@ h2 {
 
 
 .header-img {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 250px;
+  max-height: 250px;
   border-radius: 10%;
   margin: 10px;
   margin-top: 100px;
